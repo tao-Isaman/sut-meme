@@ -36,6 +36,8 @@
 	"type": "module",
 	"dependencies": {
 		"@fontsource/fira-mono": "^4.5.0",
-		"cookie": "^0.4.1"
+		"cookie": "^0.4.1",
+		"postcss": "^8.4.16",
+		"postcss-load-config": "^4.0.1"
 	}
 }
