@@ -32,7 +32,7 @@
     "src": "node_modules/@fontsource/fira-mono/files/fira-mono-all-400-normal.woff"
   },
   ".svelte-kit/runtime/client/start.js": {
-    "file": "internal/immutable/start-a37d3046.js",
+    "file": "internal/immutable/start-5029d101.js",
     "src": ".svelte-kit/runtime/client/start.js",
     "isEntry": true,
     "imports": [
@@ -136,6 +136,10 @@
   "_singletons-3468a0d6.js": {
     "file": "internal/immutable/chunks/singletons-3468a0d6.js"
   },
+  "src/routes/index.css": {
+    "file": "internal/immutable/assets/index-8bad58d3.css",
+    "src": "src/routes/index.css"
+  },
   "src/routes/about.css": {
     "file": "internal/immutable/assets/about-9682aba9.css",
     "src": "src/routes/about.css"
@@ -143,10 +147,6 @@
   "src/routes/todos/index.css": {
     "file": "internal/immutable/assets/index-5c3529b5.css",
     "src": "src/routes/todos/index.css"
-  },
-  "src/routes/index.css": {
-    "file": "internal/immutable/assets/index-8bad58d3.css",
-    "src": "src/routes/index.css"
   },
   "src/routes/__layout.css": {
     "file": "internal/immutable/assets/__layout-335f482e.css",
