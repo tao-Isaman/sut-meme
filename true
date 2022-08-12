@@ -5,7 +5,7 @@
 		<link rel="icon" href="./favicon.png" />
 		<meta name="viewport" content="width=device-width" />
 		<meta http-equiv="content-security-policy" content="">
-	<link rel="modulepreload" href="/internal/immutable/start-adc5ba10.js">
+	<link rel="modulepreload" href="/internal/immutable/start-b9c6d463.js">
 	<link rel="modulepreload" href="/internal/immutable/chunks/index-692d5d28.js">
 	<link rel="modulepreload" href="/internal/immutable/chunks/index-220724cf.js">
 	<link rel="modulepreload" href="/internal/immutable/chunks/paths-86ffdd15.js">
@@ -14,7 +14,7 @@
 	<body>
 		<div>
 		<script type="module" data-sveltekit-hydrate="45h">
-		import { set_public_env, start } from "/internal/immutable/start-adc5ba10.js";
+		import { set_public_env, start } from "/internal/immutable/start-b9c6d463.js";
 
 		set_public_env({});
 
