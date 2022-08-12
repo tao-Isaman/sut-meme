@@ -2,25 +2,25 @@
 <html lang="en">
 	<head>
 		<meta charset="utf-8" />
-		<link rel="icon" href="./favicon.png" />
+		<link rel="icon" href="/sut-meme/favicon.png" />
 		<meta name="viewport" content="width=device-width" />
 		<meta http-equiv="content-security-policy" content="">
-	<link rel="modulepreload" href="/internal/immutable/start-b9c6d463.js">
-	<link rel="modulepreload" href="/internal/immutable/chunks/index-692d5d28.js">
-	<link rel="modulepreload" href="/internal/immutable/chunks/index-220724cf.js">
-	<link rel="modulepreload" href="/internal/immutable/chunks/paths-86ffdd15.js">
-	<link rel="modulepreload" href="/internal/immutable/chunks/singletons-3468a0d6.js">
+	<link rel="modulepreload" href="/sut-meme/internal/immutable/start-d3f069c0.js">
+	<link rel="modulepreload" href="/sut-meme/internal/immutable/chunks/index-692d5d28.js">
+	<link rel="modulepreload" href="/sut-meme/internal/immutable/chunks/index-220724cf.js">
+	<link rel="modulepreload" href="/sut-meme/internal/immutable/chunks/paths-86ffdd15.js">
+	<link rel="modulepreload" href="/sut-meme/internal/immutable/chunks/singletons-3468a0d6.js">
 	</head>
 	<body>
 		<div>
 		<script type="module" data-sveltekit-hydrate="45h">
-		import { set_public_env, start } from "/internal/immutable/start-b9c6d463.js";
+		import { set_public_env, start } from "/sut-meme/internal/immutable/start-d3f069c0.js";
 
 		set_public_env({});
 
 		start({
 			target: document.querySelector('[data-sveltekit-hydrate="45h"]').parentNode,
-			paths: {"base":"","assets":""},
+			paths: {"base":"/sut-meme","assets":"/sut-meme"},
 			session: {},
 			route: true,
 			spa: true,
