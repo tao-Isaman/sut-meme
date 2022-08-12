@@ -5,7 +5,7 @@
 		<link rel="icon" href="/sut-meme/favicon.png" />
 		<meta name="viewport" content="width=device-width" />
 		<meta http-equiv="content-security-policy" content="">
-	<link rel="modulepreload" href="/sut-meme/internal/immutable/start-5483d157.js">
+	<link rel="modulepreload" href="/sut-meme/internal/immutable/start-16a1c3ae.js">
 	<link rel="modulepreload" href="/sut-meme/internal/immutable/chunks/index-692d5d28.js">
 	<link rel="modulepreload" href="/sut-meme/internal/immutable/chunks/index-220724cf.js">
 	<link rel="modulepreload" href="/sut-meme/internal/immutable/chunks/paths-86ffdd15.js">
@@ -14,7 +14,7 @@
 	<body>
 		<div>
 		<script type="module" data-sveltekit-hydrate="45h">
-		import { set_public_env, start } from "/sut-meme/internal/immutable/start-5483d157.js";
+		import { set_public_env, start } from "/sut-meme/internal/immutable/start-16a1c3ae.js";
 
 		set_public_env({});
 
