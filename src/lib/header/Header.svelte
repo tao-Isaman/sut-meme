@@ -8,7 +8,7 @@
 	</a>
 	<div class="flex">
 		<a href="{base}/about"><h2 class="text-black transition-all hover:text-gray-700">About</h2></a>
-		<a href="{base}/"><h2 class="text-black transition-all hover:text-gray-700">Meme</h2></a>
+		<a href="{base}/meme"><h2 class="text-black transition-all hover:text-gray-700">Meme</h2></a>
 	</div>
 </section>
 
