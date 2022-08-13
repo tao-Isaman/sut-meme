@@ -4,7 +4,6 @@
 
 <script lang="ts">
 	import { base } from '$app/paths'
-	import Counter from '$lib/Counter.svelte';
 </script>
 
 <svelte:head>
@@ -13,53 +12,33 @@
 </svelte:head>
 
 <section>
-	<h1>
-		<span class="welcome">
-			<picture>
-				<source srcset="{base}/svelte-welcome.webp" type="image/webp" />
-				<img src="{base}/svelte-welcome.png" alt="Welcome" />
-			</picture>
-		</span>
-
-		to SUT meme 
-	</h1>
-	<picture>
-		<img src="https://scontent.fbkk29-1.fna.fbcdn.net/v/t39.30808-6/220596964_667233284208918_6792899855305211976_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeEcqBX-supzU646fT73x-9pEFuARDDvepUQW4BEMO96lSHuoEBDTKm9lZMVOjRCD2ULNqdaptDB39qdcz3gg8yg&_nc_ohc=mZcD8qCxbDAAX-XUJ70&tn=JpJRb9ntlW41_XsY&_nc_ht=scontent.fbkk29-1.fna&oh=00_AT_1BiKvL8bfiY8riHcOCW098_oJPvZVKiWRjv2jH8Wg1g&oe=62FB03AF" alt="Welcome" />
-	</picture>
-
-	<h2>
-		try editing <strong>src/routes/index.svelte</strong>
-	</h2>
-
-	<Counter />
+	<div class="flex items-center justify-center mt-4 lg:mt-6 mb-10 lg:mb-12">
+		<section class="max-w-[1440px] py-10 lg:py-20 lg:mx-10 lg:rounded-3xl mesh">
+		  <div class="mx-auto max-w-[1440px] px-4 md:px-8 lg:px-12 xl:px-32">
+			<div class="w-11/12 md:w-4/5 xl:w-1/2 mx-4">
+			  <h1>สวัสดี SUT Meme</h1>
+			  <p class="text-lg mt-4 mb-6">
+				SUT Meme call "ซุท-มีม" in thai or "sut-meme" in english. We are create a funny meme
+				too make all the reader is happy on facebook page. All that our memes in thai language only
+			  </p>
+			  <p>
+				<a href="https://www.facebook.com/SUTmeme" class="cg-btn">Click Me</a>
+			  </p>
+			</div>
+		  </div>
+		</section>
+	  </div>
 </section>
 
 <style>
-	section {
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
-		flex: 1;
-	}
-
-	h1 {
-		width: 100%;
-	}
-
-	.welcome {
-		display: block;
-		position: relative;
-		width: 100%;
-		height: 0;
-		padding: 0 0 calc(100% * 495 / 2048) 0;
-	}
-
-	.welcome img {
-		position: absolute;
-		width: 100%;
-		height: 100%;
-		top: 0;
-		display: block;
-	}
+	.mesh {
+    background: fixed;
+    background-color: rgb(251, 254, 255);
+    background-image: radial-gradient(at 48% 49%, rgb(245, 222, 118) 0, transparent 89%),
+      radial-gradient(at 64% 44%, rgb(254, 242, 242) 0, transparent 18%),
+      radial-gradient(at 64% 97%, rgb(28, 25, 23) 0, transparent 40%),
+      radial-gradient(at 14% 17%, rgb(252, 125, 130), transparent 76%),
+      radial-gradient(at 43% 71%, rgb(36, 6, 58) 0, transparent 66%);
+  }
+	
 </style>
