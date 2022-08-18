@@ -1,16 +1,10 @@
 <script lang="ts">
-	import { enhance } from '$lib/form';
-	import { scale } from 'svelte/transition';
-	import { flip } from 'svelte/animate';
+import type { Meme } from "./_lib/store/meme";
 
-	type Meme = {
-		id: string;
-		name: string;
-		url: string;
-		width: number;
-		height: number;
-		box_count: number;
-	};
+
+
+
+
 
 	export let memes: Meme[];
 </script>
@@ -27,7 +21,7 @@
 	{#each memes as meme (meme.id)}
 		<a
 			class="flex flex-col justify-between hover:bg-gray-200 hover:cursor-pointer grid-meme "
-			href="/meme/create/{meme.id}"
+			href="/meme/{meme.id}"
 		>
 			<div class="grid grid-rows-auto content-start pb-5">
 				<p class="text-lg">{meme.name}</p>

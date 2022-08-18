@@ -1,5 +1,12 @@
 <script lang="ts">
 	import { page } from '$app/stores'
+	import { _meme } from './_lib/store/meme'
+	import type { Meme } from './_lib/store/meme';
+
+	 let meme: Meme[];
+	 _meme.subscribe(value => {
+		meme = value;
+	 })
 
 </script>
 
@@ -12,7 +19,8 @@
 	<h1>Create Meme</h1>
 </div>
 <div class="flex justify-center">
-	<p>Meme ID is : {$page.url.pathname.split('/')[3]}</p>
+	<!-- <p>Meme ID is : {meme.id}</p> -->
+	<!-- {meme.id} -->
 </div>
 
 

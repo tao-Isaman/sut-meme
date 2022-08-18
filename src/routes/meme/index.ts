@@ -1,5 +1,7 @@
+import { writable } from 'svelte/store'
 import { api } from './_api';
 import type { RequestHandler } from '../../../.svelte-kit/types/src/routes/meme/__types';
+import { MemeList } from './_lib/store/meme';
 
 export const GET: RequestHandler = async ({ locals }) => {
 	// locals.userid comes from src/hooks.js
@@ -20,6 +22,9 @@ export const GET: RequestHandler = async ({ locals }) => {
 		const body = {
 			memes: await response.json()
 		}
+		// const stored = localStorage['meme-list']
+		MemeList.set(body['memes']['data'])
+
 		return {
 			body: body['memes']['data']
 		};
