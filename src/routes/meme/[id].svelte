@@ -1,12 +1,12 @@
 <script lang="ts">
-	import { page } from '$app/stores'
-	import { _meme } from './_lib/store/meme'
-	import type { Meme } from './_lib/store/meme';
+	// import { page } from '$app/stores'
+	// import { _meme } from './_lib/store/meme'
+	// import type { Meme } from './_lib/store/meme';
 
-	 let meme: Meme[];
-	 _meme.subscribe(value => {
-		meme = value;
-	 })
+	//  let meme: Meme[];
+	//  _meme.subscribe(value => {
+	// 	meme = value;
+	//  })
 
 </script>
 
